@@ -64,3 +64,8 @@ td {
   width: 50%;
   text-align: center;
 }
+
+#footer {
+  height: 15vh;
+  background-color: darkslategrey;
+}
