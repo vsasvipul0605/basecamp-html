@@ -1,0 +1,66 @@
+.navbar-nav {
+  flex-direction: row;
+}
+
+.nav-link {
+  padding-right: 0.5rem !important;
+  padding-left: 0.5rem !important;
+}
+
+/* Fixes dropdown menus placed on the right side */
+.ml-auto .dropdown-menu {
+  left: auto !important;
+  right: 0px;
+}
+
+/* jumbotron text */
+.text-center {
+  font-weight: bold;
+}
+
+.first {
+  display: flex;
+  justify-content: center;
+}
+.item {
+  display: flex;
+  flex-wrap: wrap;
+}
+.green {
+  background-color: palegreen;
+  height: 400px;
+  width: 5px;
+  position: relative;
+  float: left;
+  margin: 15px 80px 15px 80px;
+  border-radius: 10%;
+  flex-grow: 1;
+}
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+.yellow {
+  background-color: sandybrown;
+  height: 200px;
+  width: 500px;
+  position: relative;
+  float: left;
+  margin: 30px;
+  border-radius: 0;
+}
+
+.table-responsive {
+  display: table;
+}
+table {
+  border-top: none;
+}
+.text,
+.image {
+  padding: 30px;
+}
+td {
+  width: 50%;
+  text-align: center;
+}
